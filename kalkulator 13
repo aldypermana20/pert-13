@@ -1,0 +1,78 @@
+public class Kalkulator {
+
+
+    public static int tambah(int a, int b) {
+        return a + b;
+    }
+
+
+    public static double kali(double a, double b) {
+        return a * b;
+    }
+
+
+    public static double bagi(double a, double b) {
+        return a / b;
+    }
+
+
+    public static void main(String[] args) {
+        System.out.println(tambah(80, 23));
+        System.out.println(kali(10, 20));
+        System.out.println(bagi(66, 6));
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+public class BangunDatar {
+
+
+    public static double luasPersegiPanjang(double p, double l) {
+        return p * l;
+    }
+
+
+    public static double jarijari(double r) {
+        return Math.PI * r * r;
+    }
+
+
+    public static double luasPersegi(double S, double s) {
+        return S * s;
+    }
+
+
+    public static void main(String[] args) {
+        System.out.println(luasPersegiPanjang(10, 20));
+        System.out.println(jarijari(21));
+        System.out.println(luasPersegi(5, 5));
+    }
+}
+
+
+
+
+
